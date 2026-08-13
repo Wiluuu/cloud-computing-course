@@ -1,4 +1,3 @@
-```markdown
 # Cloud Infrastructure Components Analysis
 
 ## 1. Compute Resources
