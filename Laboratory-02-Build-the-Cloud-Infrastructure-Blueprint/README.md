@@ -22,18 +22,19 @@ This laboratory assignment focuses on analyzing fundamental cloud infrastructure
 * **Draw.io / Excalidraw:** Cloud architecture diagramming.
 
 ## Linux Commands Executed
-
+```bash
 cat /etc/os-release
 uname -r
 lscpu
 free -h
 df -h
 hostname -I
+```
 
 Skills Learned
-Inspecting cloud hardware allocations via CLI tools.
-Mapping provider service equivalencies across AWS, Azure, and GCP.
-Structuring engineering documentation for technical stakeholders.
+-Inspecting cloud hardware allocations via CLI tools.
+-Mapping provider service equivalencies across AWS, Azure, and GCP.
+-Structuring engineering documentation for technical stakeholders.
 
 Challenges Encountered
-Understanding how physical host hardware maps to virtualized cloud slices in a sandboxed CLI environment.
+-Understanding how physical host hardware maps to virtualized cloud slices in a sandboxed CLI environment.
