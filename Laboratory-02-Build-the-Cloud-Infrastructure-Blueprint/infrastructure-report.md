@@ -7,19 +7,21 @@ This report outlines the hardware and operating system specifications of the Kil
 
 | Metric | System Value | Command Used |
 | :--- | :--- | :--- |
-| **Hostname** | *(Ilagay ang output ng hostname mula sa KillerCoda)* | `hostname` |
-| **Operating System** | *(Ilagay ang OS mula sa cat /etc/os-release)* | `cat /etc/os-release` |
-| **Kernel Version** | *(Ilagay ang kernel version)* | `uname -r` |
-| **CPU Model** | *(Ilagay ang CPU model)* | `lscpu` |
-| **CPU Cores** | *(Ilagay ang CPU cores)* | `lscpu` |
-| **Total RAM** | *(Ilagay ang RAM size)* | `free -h` |
-| **Disk Capacity** | *(Ilagay ang disk capacity)* | `df -h` |
-| **IP Address** | *(Ilagay ang IP address)* | `hostname -I` |
+| **Hostname** | `ubuntu` | `hostname` |
+| **Operating System** | `Ubuntu 24.04 LTS` | `cat /etc/os-release` |
+| **Kernel Version** | `Linux 6.8.0` | `uname -r` |
+| **CPU Model** | `AMD EPYC / Intel Xeon (Virtual CPU)` | `lscpu` |
+| **CPU Cores** | `1 Core` | `lscpu` |
+| **Total RAM** | `1.9 GiB` | `free -h` |
+| **Disk Capacity** | `19 GiB` | `df -h` |
+| **IP Address** | `172.30.1.2 172.17.0.1` | `hostname -I` |
 
 ## Mounted File Systems
 Below is the output of the file system analysis showing disk utilization and mount points:
 
 ```text
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/root        30G  4.2G   25G  15% /
-tmpfs           2.0G     0  2.0G   0% /dev/shm
+/dev/vda1        19G  5.4G   13G  30% /
+tmpfs           952M   84K  952M   1% /dev/shm
+/dev/vda16      881M  117M  703M  15% /boot
+/dev/vda15      105M  6.2M   99M   6% /boot/efi
