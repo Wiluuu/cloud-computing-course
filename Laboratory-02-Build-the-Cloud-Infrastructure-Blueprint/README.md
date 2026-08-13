@@ -30,11 +30,10 @@ free -h
 df -h
 hostname -I
 
+Skills Learned
+Inspecting cloud hardware allocations via CLI tools.
+Mapping provider service equivalencies across AWS, Azure, and GCP.
+Structuring engineering documentation for technical stakeholders.
 
-## Skills Learned
-* Inspecting cloud hardware allocations via CLI tools.
-* Mapping provider service equivalencies across AWS, Azure, and GCP.
-* Structuring engineering documentation for technical stakeholders.
-
-## Challenges Encountered
-* Understanding how physical host hardware maps to virtualized cloud slices in a sandboxed CLI environment.
+Challenges Encountered
+Understanding how physical host hardware maps to virtualized cloud slices in a sandboxed CLI environment.
