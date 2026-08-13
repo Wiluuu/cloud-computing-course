@@ -22,7 +22,7 @@ This laboratory assignment focuses on analyzing fundamental cloud infrastructure
 * **Draw.io / Excalidraw:** Cloud architecture diagramming.
 
 ## Linux Commands Executed
-```bash
+
 cat /etc/os-release
 uname -r
 lscpu
